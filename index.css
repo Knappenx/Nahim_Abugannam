@@ -1,0 +1,186 @@
+html{
+    font-size: 1rem;
+}
+
+.navbar-brand, .nav-link, .footer-icon{
+    text-decoration: none;
+    color: #DCA24B;
+}
+
+.navbar-brand:hover, .nav-link:hover, .navbar-toggler:hover, .footer-icon:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar-toggler{
+    color: #DCA24B;
+    position: relative;
+    font-size: 2.5rem;
+}
+
+.navbar-toggler-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-icon{
+    padding: 15px;
+}
+
+.copyright-text{
+    padding-bottom: 15px;
+    color: #DCA24B;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.image-background{
+    width: 100%;
+    height: 465px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card{
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+    height: 250px;
+    background-color: rgba(7, 6, 3, 0.06)
+}
+
+.profession-card{
+    width: 85%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+    height: 250px;
+    background-color: rgba(7, 6, 3, 0.06)
+}
+
+.section-title{
+    color: black;
+}
+
+.separator{
+    border-bottom: 3px solid rgba(101, 101, 101, 0.35);
+    margin-top: 10px;
+}
+
+.in-box{
+    flex: 1 1;
+    text-align: center;    
+}
+
+.navbar-icon{
+    height: 50%;
+    width: 50%;
+}
+
+body{
+    padding-top: 94px;
+}
+
+body, .navbar{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    font-size: 1.3rem;
+}
+
+.profile_pic{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.site-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.site-link:hover{
+    color: #DCA24B;
+}
+
+.location{
+    text-align: right;
+}
+
+.job-details{
+    text-align: left;
+}
+
+@media (max-width:1475px) {
+    .education-card{
+        width: 100%;
+    }
+}
+
+@media (max-width:1100px) {
+    .profession-card{
+        width: 100%;
+    }
+}
+
+@media (max-width:1200px){
+    .job-details{
+        text-align: center;
+    }
+    .location{
+        text-align: center;
+    }
+}
+
+@media (max-width:765px) {
+    .image-background{
+        height: 740px;
+    }
+    .profession-card{
+        width: 90%;
+    }
+}
+
+@media (max-width:991px) {
+    .profile-picture{
+        height: 70%;
+        width: 70%
+    }
+    .card{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:1400px) {
+    .education-card{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:575px) {
+    h2{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h6{
+        font-size: 0.8rem;
+    }
+}
