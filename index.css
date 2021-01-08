@@ -184,3 +184,47 @@ body, .navbar{
         font-size: 0.8rem;
     }
 }
+
+@media (max-width:475px) {
+    .logo{
+      width: 55px;
+      height: 55px;  
+    }
+
+    .rounded-circle{
+        width: 200px;
+        height: 200px;
+    }
+
+    .image-background{
+        height: 475px;
+    } 
+
+    .card{
+        height: 200px;;
+    }
+
+    h1{
+        font-size: 1.4rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    h4{
+        font-size: 0.8rem;
+    }
+
+    h5{
+        font-size: 0.6rem;
+    }
+
+    h6{
+        font-size: 0.4rem;
+    }
+}
